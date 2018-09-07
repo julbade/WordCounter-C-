@@ -35,7 +35,12 @@ namespace WordCounter
        public static void Main()
         {
 
-            Console.WriteLine(countWords("sample", "This sample is a sample"));
+            Console.WriteLine("Please enter a word:");
+            string userInput = Console.ReadLine();
+            Console.WriteLine("Please enter a sentence:");
+            string userSentence = Console.ReadLine();
+            Console.WriteLine(countWords(userInput, userSentence));
+
            
         }
 

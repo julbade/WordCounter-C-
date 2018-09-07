@@ -44,7 +44,7 @@ namespace WordCounter.Tests
             //Arrange
             string wordToFind = "fish";
             string sentenceInput = "This sample is a sample";
-            int expectedValue = 1;
+            int expectedValue = 0;
 
             //Act
             int actualValue = RepeatCounter.countWords(wordToFind, sentenceInput);
