@@ -10,7 +10,7 @@ namespace WordCounter
         {
             StringBuilder stringBuilder = new StringBuilder();
 
-            //Loop through each character in the sentence
+            //Loop through each character in the sentence including " "
             int count = 0;
             foreach (char word in sentenceInput) 
             {
@@ -25,6 +25,7 @@ namespace WordCounter
                     stringBuilder.Clear();
                 }
             }
+            //To count last word to find
             if (stringBuilder.ToString().Trim() == wordToFind)
             {
                 count++;
@@ -33,9 +34,9 @@ namespace WordCounter
         }
        public static void Main()
         {
-            //User interface
-            Console.WriteLine("Please enter a word: ");
-            string userInput = Console.ReadLine();
+
+            Console.WriteLine(countWords("sample", "This sample is a sample"));
+           
         }
 
     }

@@ -9,8 +9,7 @@ namespace WordCounter.Tests
   {
         [TestMethod]
           public void countWords_NumberofWords()
-            {
-
+        {
 
             //Arrange
             string wordToFind = "sample";
@@ -22,12 +21,11 @@ namespace WordCounter.Tests
 
             //Assert
             Assert.AreEqual(expectedValue, actualValue);
-            }
+        }
+
         [TestMethod]
-            public void wordToFind_isLastWord()
+            public void wordToFind_IsLastWord()
         {
-
-
             //Arrange
             string wordToFind = "sample";
             string sentenceInput = "This sample is a sample";
@@ -39,6 +37,22 @@ namespace WordCounter.Tests
             //Assert
             Assert.AreEqual(expectedValue, actualValue);
         }
+
+        [TestMethod]
+            public void wordToFind_IsNotExisting()
+        {
+            //Arrange
+            string wordToFind = "fish";
+            string sentenceInput = "This sample is a sample";
+            int expectedValue = 1;
+
+            //Act
+            int actualValue = RepeatCounter.countWords(wordToFind, sentenceInput);
+
+            //Assert
+            Assert.AreEqual(expectedValue, actualValue);
+        }
+
 
     }
 }

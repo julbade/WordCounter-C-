@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{A13B86AC-834E-40DE-B131-B68E9079CF05}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="ModelTests/WordCounterTests.cs">
     <Files>
-      <File FileName="ModelTests/WordCounterTests.cs" Line="26" Column="13" />
+      <File FileName="ModelTests/WordCounterTests.cs" Line="42" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.WordCounerTests PreferredExecutionTarget="MonoDevelop.Default" />
