@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{A13B86AC-834E-40DE-B131-B68E9079CF05}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ModelTests/WordCounterTests.cs">
+    <Files>
+      <File FileName="ModelTests/WordCounterTests.cs" Line="14" Column="27" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.WordCounerTests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

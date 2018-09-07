@@ -1,21 +1,36 @@
 using System;
 using System.Collections.Generic;
+using System.Text;
 
 namespace WordCounter
 {
   public class RepeatCounter
   {
-        public static int countWords(string wordToFind, List<string> words)
+        public static int countWords(string wordToFind, string sentenceInput)
         {
+            StringBuilder stringBuilder = new StringBuilder();
+
+
             int count = 0;
-            foreach (string word in words) {
-                if(wordToFind == word)
+            foreach (char word in sentenceInput) 
+            {
+                stringBuilder.Append(word);
+                if (word == ' ')
                 {
-                    count++; 
+                    if (stringBuilder.ToString() == wordToFind)
+                    {
+                        count++;
+                    }
+                    stringBuilder.Clear();
                 }
             }
             return count;
         }
-    
+       public static void Main()
+        {
+
+            Console.WriteLine(countWords("sample", "This sample is a sample"));
+        }
+
     }
 }
