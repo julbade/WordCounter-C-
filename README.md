@@ -19,7 +19,7 @@ Create a program
 
 ## Setup/Installation Requirements
 
-1. Clone this repository at https://github.com/julbade/WordCounter-C-
+1. Clone this repository at https://github.com/julbade/WordCounter-Csharp
 2. Open folder WordCounter.
 3. Run WordCounter.exe
 
