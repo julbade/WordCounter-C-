@@ -2825,6 +2825,19 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "WordCounter/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v1.1",
+        "dependencies": {
+          "Microsoft.NETCore.App": "1.1.2"
+        },
+        "compile": {
+          "bin/placeholder/WordCounter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WordCounter.dll": {}
+        }
       }
     }
   },
@@ -8455,6 +8468,11 @@
         "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "WordCounter/1.0.0": {
+      "type": "project",
+      "path": "../WordCounter/WordCounter.csproj",
+      "msbuildProject": "../WordCounter/WordCounter.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -8462,7 +8480,8 @@
       "MSTest.TestAdapter >= 1.2.0",
       "MSTest.TestFramework >= 1.2.0",
       "Microsoft.NET.Test.Sdk >= 15.0.0",
-      "Microsoft.NETCore.App >= 1.1.2"
+      "Microsoft.NETCore.App >= 1.1.2",
+      "WordCounter >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -8475,10 +8494,10 @@
       "projectName": "WordCounerTests",
       "projectPath": "/Users/juliusbade/Desktop/WordCounter.Solution/WordCounter.Tests/WordCounerTests.csproj",
       "packagesPath": "/Users/juliusbade/.nuget/packages/",
-      "outputPath": "/Users/juliusbade/Desktop/WordCounter.Solution/WordCounter.Tests/obj",
+      "outputPath": "/Users/juliusbade/Desktop/WordCounter.Solution/WordCounter.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/juliusbade/.config/NuGet/NuGet.Config"
+        "/Users/juliusbade/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp1.1"
@@ -8489,7 +8508,11 @@
       },
       "frameworks": {
         "netcoreapp1.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/juliusbade/Desktop/WordCounter.Solution/WordCounter/WordCounter.csproj": {
+              "projectPath": "/Users/juliusbade/Desktop/WordCounter.Solution/WordCounter/WordCounter.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -8501,22 +8524,21 @@
     "frameworks": {
       "netcoreapp1.1": {
         "dependencies": {
-          "Microsoft.NET.Test.Sdk": {
-            "target": "Package",
-            "version": "15.0.0"
-          },
           "MSTest.TestAdapter": {
             "target": "Package",
-            "version": "1.2"
+            "version": "[1.2.0, )"
           },
           "MSTest.TestFramework": {
             "target": "Package",
-            "version": "1.2"
+            "version": "[1.2.0, )"
+          },
+          "Microsoft.NET.Test.Sdk": {
+            "target": "Package",
+            "version": "[15.0.0, )"
           },
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
-            "version": "1.1.2",
+            "version": "[1.1.2, )",
             "autoReferenced": true
           }
         }

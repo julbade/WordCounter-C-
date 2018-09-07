@@ -7046,10 +7046,10 @@
       "projectName": "WordCounter",
       "projectPath": "/Users/juliusbade/Desktop/WordCounter.Solution/WordCounter/WordCounter.csproj",
       "packagesPath": "/Users/juliusbade/.nuget/packages/",
-      "outputPath": "/Users/juliusbade/Desktop/WordCounter.Solution/WordCounter/obj",
+      "outputPath": "/Users/juliusbade/Desktop/WordCounter.Solution/WordCounter/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/juliusbade/.config/NuGet/NuGet.Config"
+        "/Users/juliusbade/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp1.1"
@@ -7073,9 +7073,8 @@
       "netcoreapp1.1": {
         "dependencies": {
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
-            "version": "1.1.2",
+            "version": "[1.1.2, )",
             "autoReferenced": true
           }
         }
