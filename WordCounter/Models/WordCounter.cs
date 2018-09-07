@@ -17,7 +17,7 @@ namespace WordCounter
                 stringBuilder.Append(word);
                 if (word == ' ')
                 {
-                    if (stringBuilder.ToString() == wordToFind)
+                    if (stringBuilder.ToString().Trim() == wordToFind)
                     {
                         count++;
                     }
@@ -29,7 +29,7 @@ namespace WordCounter
        public static void Main()
         {
 
-            Console.WriteLine(countWords("sample", "This sample is a sample"));
+            Console.WriteLine(countWords("sample", "This sample is a sample hello"));
         }
 
     }

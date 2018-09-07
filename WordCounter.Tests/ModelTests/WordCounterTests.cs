@@ -10,6 +10,8 @@ namespace WordCounter.Tests
         [TestMethod]
     public void countWords_NumberofWords()
         {
+
+
             //Arrange
             string wordToFind = "sample";
             string sentenceInput = "This sample is a sample hello";
