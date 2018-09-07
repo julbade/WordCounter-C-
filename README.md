@@ -4,7 +4,7 @@
 
 #### By **Julius Bade**
 
-## Description A program that checks how frequently a word appears in a given string or sentence.
+##A program that checks how frequently a word appears in a given string or sentence.
 
 
 ### Specs
