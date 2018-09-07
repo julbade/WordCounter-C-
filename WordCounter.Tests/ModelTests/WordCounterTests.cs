@@ -8,8 +8,8 @@ namespace WordCounter.Tests
   public class WordCounterTest
   {
         [TestMethod]
-    public void countWords_NumberofWords()
-        {
+          public void countWords_NumberofWords()
+            {
 
 
             //Arrange
@@ -22,7 +22,23 @@ namespace WordCounter.Tests
 
             //Assert
             Assert.AreEqual(expectedValue, actualValue);
+            }
+        [TestMethod]
+            public void wordToFind_isLastWord()
+        {
+
+
+            //Arrange
+            string wordToFind = "sample";
+            string sentenceInput = "This sample is a sample";
+            int expectedValue = 2;
+
+            //Act
+            int actualValue = RepeatCounter.countWords(wordToFind, sentenceInput);
+
+            //Assert
+            Assert.AreEqual(expectedValue, actualValue);
         }
 
-  }
+    }
 }

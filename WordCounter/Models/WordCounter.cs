@@ -10,10 +10,11 @@ namespace WordCounter
         {
             StringBuilder stringBuilder = new StringBuilder();
 
-
+            //Loop through each character in the sentence
             int count = 0;
             foreach (char word in sentenceInput) 
             {
+                //Extracts each words in a sentence
                 stringBuilder.Append(word);
                 if (word == ' ')
                 {
@@ -24,12 +25,17 @@ namespace WordCounter
                     stringBuilder.Clear();
                 }
             }
+            if (stringBuilder.ToString().Trim() == wordToFind)
+            {
+                count++;
+            }
             return count;
         }
        public static void Main()
         {
-
-            Console.WriteLine(countWords("sample", "This sample is a sample hello"));
+            //User interface
+            Console.WriteLine("Please enter a word: ");
+            string userInput = Console.ReadLine();
         }
 
     }
