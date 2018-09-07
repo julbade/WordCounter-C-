@@ -4,9 +4,8 @@
 
 #### By **Julius Bade**
 
-## Description A program that checks how frequently a word appears in a given string.
+## Description A program that checks how frequently a word appears in a given string or sentence.
 
-Create a program
 
 ### Specs
 | Spec | Input | Output |
