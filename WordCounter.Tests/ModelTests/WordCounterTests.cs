@@ -8,13 +8,13 @@ namespace WordCounter.Tests
   public class WordCounterTest
   {
     int count = 0;
-    List<string> testList = new List<string> {"sample", "sample", "sample"};
+    List<string> testList = new List<string> {"sample", "sample"};
     WordCounter testCount = new WordCounter();
 
     [TestMethod]
     public void  WordCount_TestNumberofSample()
     {
-      foreach(string x in WordCounter.WordCount(3))
+      foreach(string x in WordCounter.WordCount())
       {
         if (x == "sample")
         count ++;
