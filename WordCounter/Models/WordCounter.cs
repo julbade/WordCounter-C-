@@ -48,7 +48,7 @@ namespace WordCounter.Models
     public static string[] WordsArray(string text)
     {
 
-      char[] DeleteCharacters = new char[] {'.',',',';',':','?','!',' '};
+      char[] DeleteCharacters = new char[] {',','.','!','?',':',';',' '};
       string[] newInputSentence = text.Split(DeleteCharacters);
       return newInputSentence;
     }
