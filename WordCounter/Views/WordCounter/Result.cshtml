@@ -1,4 +1,11 @@
-<h3>Your result</h3>
+@{
+  Layout = "_Layout";
+}
+
+<div class="container">
+<img src="~/img/trollface.jpg" id="trollface">
+<div class="jumbotron">
+<h3>Your result:</h3>
 
 <p>Your Word Input : "@Model.GetWord()"<p>
 
@@ -7,5 +14,7 @@
 
 <br>
 <p>Your Word "@Model.GetWord()" appeared @Model.GetCountWords() times!</p>
+</div>
 
 <h3><a href="/words/new">Go back</a></h3>
+</div>

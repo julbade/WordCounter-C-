@@ -1,0 +1,27 @@
+h1 {
+  font-family: 'Aclonica';
+  font-size: 50px;
+  color: red;
+  text-shadow: black;
+
+}
+form {
+  font-size: 'Autour One';
+  font-size: 40px;
+  color: skyblue;
+  text-shadow: black;
+}
+
+#trollface {
+  height: 420px;
+  width: 400px;
+  float: right;
+}
+
+p, h3 {
+   font-family: 'Almendra Display';
+   font-size: 60px;
+  color: brown;
+  text-shadow: black;
+
+}

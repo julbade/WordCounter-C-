@@ -13,22 +13,22 @@ namespace WordCounter.Tests
     public void CountWords_ReturnCount_True()
     {
 
-        //Arrange
-        RepeatCounter Word = new RepeatCounter(" "," ");
+         //Arrange
+         RepeatCounter Word = new RepeatCounter(" "," ");
          Word.SetWord("sample");
-         Word.SetSentence("This sample is a sample hello");
+         Word.SetSentence("This sample is a sample");
          string sentenceInput = Word.GetSentence();
          string[] WordsArray = RepeatCounter.WordsArray(sentenceInput);
          string word = Word.GetWord();
 
-         int expectedValue = 1;
+         int expectedValue = 2;
 
-        //Act
-        int actualValue = RepeatCounter.CountWords(word,WordsArray);
+         //Act
+         int actualValue = RepeatCounter.CountWords(word,WordsArray);
 
-      //Assert
+        //Assert
         Assert.AreEqual(expectedValue, actualValue);
-        }
-
     }
+
+  }
 }
