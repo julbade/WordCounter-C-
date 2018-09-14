@@ -9555,11 +9555,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/juliusbade/Desktop/WordCounter-Csharp/WordCounter/WordCounter.csproj",
+      "projectUniqueName": "/Users/juliusbade/Desktop/WordCounter.Solutions/WordCounter/WordCounter.csproj",
       "projectName": "WordCounter",
-      "projectPath": "/Users/juliusbade/Desktop/WordCounter-Csharp/WordCounter/WordCounter.csproj",
+      "projectPath": "/Users/juliusbade/Desktop/WordCounter.Solutions/WordCounter/WordCounter.csproj",
       "packagesPath": "/Users/juliusbade/.nuget/packages/",
-      "outputPath": "/Users/juliusbade/Desktop/WordCounter-Csharp/WordCounter/obj/",
+      "outputPath": "/Users/juliusbade/Desktop/WordCounter.Solutions/WordCounter/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/juliusbade/.nuget/NuGet/NuGet.Config"

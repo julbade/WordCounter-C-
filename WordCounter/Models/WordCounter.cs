@@ -49,23 +49,21 @@ namespace WordCounter.Models
     {
 
       char[] DeleteCharacters = new char[] {'.',',',';',':','?','!',' '};
-      string[] newWords = text.Split(DeleteCharacters);
-      return newWords;
+      string[] newInputSentence = text.Split(DeleteCharacters);
+      return newInputSentence;
     }
 
-    public static int CountWords(string wordToFind, string[] wordsInput)
+    public static int CountWords(string wordToFind, string[] inputSentence)
     {
      int count = 0;
-     foreach(string word in wordsInput)
+     foreach(string word in inputSentence)
      {
        if (word == wordToFind)
        {
          count++;
        }
      }
-
-
-     return count;
-     }
+       return count;
+    }
  }
 }

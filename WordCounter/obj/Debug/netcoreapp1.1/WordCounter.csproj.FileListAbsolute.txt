@@ -18,3 +18,14 @@
 /Users/juliusbade/Desktop/WordCounter-Csharp/WordCounter/bin/Debug/netcoreapp1.1/WordCounter.runtimeconfig.dev.json
 /Users/juliusbade/Desktop/WordCounter-Csharp/WordCounter/bin/Debug/netcoreapp1.1/WordCounter.dll
 /Users/juliusbade/Desktop/WordCounter-Csharp/WordCounter/bin/Debug/netcoreapp1.1/WordCounter.pdb
+/Users/juliusbade/Desktop/WordCounter.Solutions/WordCounter/bin/Debug/netcoreapp1.1/WordCounter.deps.json
+/Users/juliusbade/Desktop/WordCounter.Solutions/WordCounter/bin/Debug/netcoreapp1.1/WordCounter.runtimeconfig.json
+/Users/juliusbade/Desktop/WordCounter.Solutions/WordCounter/bin/Debug/netcoreapp1.1/WordCounter.runtimeconfig.dev.json
+/Users/juliusbade/Desktop/WordCounter.Solutions/WordCounter/bin/Debug/netcoreapp1.1/WordCounter.dll
+/Users/juliusbade/Desktop/WordCounter.Solutions/WordCounter/bin/Debug/netcoreapp1.1/WordCounter.pdb
+/Users/juliusbade/Desktop/WordCounter.Solutions/WordCounter/obj/Debug/netcoreapp1.1/WordCounter.csprojAssemblyReference.cache
+/Users/juliusbade/Desktop/WordCounter.Solutions/WordCounter/obj/Debug/netcoreapp1.1/WordCounter.csproj.CoreCompileInputs.cache
+/Users/juliusbade/Desktop/WordCounter.Solutions/WordCounter/obj/Debug/netcoreapp1.1/WordCounter.AssemblyInfoInputs.cache
+/Users/juliusbade/Desktop/WordCounter.Solutions/WordCounter/obj/Debug/netcoreapp1.1/WordCounter.AssemblyInfo.cs
+/Users/juliusbade/Desktop/WordCounter.Solutions/WordCounter/obj/Debug/netcoreapp1.1/WordCounter.dll
+/Users/juliusbade/Desktop/WordCounter.Solutions/WordCounter/obj/Debug/netcoreapp1.1/WordCounter.pdb

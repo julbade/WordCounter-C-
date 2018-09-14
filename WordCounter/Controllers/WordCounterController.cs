@@ -21,8 +21,8 @@ namespace WordCounter.Controllers
       public ActionResult Create()
       {
         RepeatCounter newWord = new RepeatCounter(Request.Form["new-word"],Request.Form["new-sentence"]);
+       string[] wordsArray = RepeatCounter.WordsArray(newWord.GetSentence());
 
-       string[] wordsArray = RepeatCounter.WordsArray(newWord.GetWord());
        int wordCount = RepeatCounter.CountWords(newWord.GetWord(),wordsArray);
        newWord.SetCountWords(wordCount);
        return View("Result", newWord);
