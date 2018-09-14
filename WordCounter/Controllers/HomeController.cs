@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
+using WordCounter.Models;
 
-namespace CarDealership.Controllers
+namespace WordCounter.Controllers
 {
   public class HomeController : Controller
   {

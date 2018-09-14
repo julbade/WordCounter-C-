@@ -9,7 +9,7 @@ namespace WordCounter.Models
   {
     private string _word;
     private string _inputSentence;
-    private int _countWords
+    private int _countWords;
 
     public RepeatCounter (string word, string inputSentence)
     {
@@ -34,7 +34,7 @@ namespace WordCounter.Models
 
     public string GetSentence()
     {
-      return _inputSentence;
+      return _inputSentence.ToLower();
 
     }
     public void SetCountWords(int countWords)
@@ -45,32 +45,27 @@ namespace WordCounter.Models
     {
       return _countWords;
     }
-
-    public static int WordsToCount(string wordToFind, string sentenceInput)
+    public static string[] WordsArray(string text)
     {
-        StringBuilder stringBuilder = new StringBuilder();
 
-         //Loop through each character in the sentence including " "
-        int count = 0;
-        foreach (char word in sentenceInput)
-        {
-         //Extracts each words in a sentence
-         stringBuilder.Append(word);
-          if (word == ' ')
-              {
-                if (stringBuilder.ToString().Trim() == wordToFind)
-                  {
-                      count++;
-                  }
-                    stringBuilder.Clear();
-              }
-        }
-         //To count last word to find
-        if (stringBuilder.ToString().Trim() == wordToFind)
-          {
-            count++;
-          }
-          return count;
-   }
-  }
+      char[] DeleteCharacters = new char[] {'.',',',';',':','?','!',' '};
+      string[] newWords = text.Split(DeleteCharacters);
+      return newWords;
+    }
+
+    public static int CountWords(string wordToFind, string[] wordsInput)
+    {
+     int count = 0;
+     foreach(string word in wordsInput)
+     {
+       if (word == wordToFind)
+       {
+         count++;
+       }
+     }
+
+
+     return count;
+     }
+ }
 }
